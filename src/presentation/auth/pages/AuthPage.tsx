@@ -11,7 +11,7 @@ function AuthPage() {
                 <div className={"flex flex-col md:min-w-sm space-y-8 md:space-y-12"}>
 
                     <div className={"inline-flex items-end"}>
-                        <img src={brandLogoImg} alt="logo" className={"w-14"}/>
+                        <img src={brandLogoImg} alt="logo" className={"scale-125"}/>
                         {/*<span className="text-sm tracking-wider text-primary font-bold">roperties park</span>*/}
                     </div>
 

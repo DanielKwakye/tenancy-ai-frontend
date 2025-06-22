@@ -14,10 +14,7 @@ import {Button} from "@/components/ui/button.tsx";
 import {landlordPortalMenuLinks} from "@/lib/constants.ts";
 import {
     Drawer,
-    DrawerClose,
     DrawerContent,
-    DrawerDescription,
-    DrawerFooter,
     DrawerHeader,
     DrawerTitle,
     DrawerTrigger
