@@ -1,12 +1,17 @@
 import {NavLink} from "react-router";
 import {brandLogoImg} from "@/assets";
 
+
+// type Props = {
+//     className?: string;
+// }
+
 function Logo() {
     return (
         <NavLink to="/">
-            <div className='flex justify-center items-center space-x-2'>
-                <img src={brandLogoImg} className='w-[50px] h-[50px]' alt="Company logo"/>
-                <span className='text-white font-bold font-[Inter] text-xl'>PARK</span>
+            <div className='flex justify-center items-center'>
+                <img src={brandLogoImg} className={"md:w-[50px] md:h-[50px] w-[30px] h-[30px]"} alt="Company logo"/>
+                <span className='block text-primary font-bold text-lg md:text-sm'>roperties park</span>
             </div>
         </NavLink>
     )
