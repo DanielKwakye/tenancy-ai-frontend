@@ -11,7 +11,7 @@ function LandlordPortalFooter() {
                     <Link to="/" className={"text-sm text-muted-foreground"}>Support</Link>
                 </div>
                 <div className={"text-sm text-muted-foreground"}>
-                    2025 © Prompt. All rights reserved. Crafted by Coderthemes
+                    2025 © Prompt. All rights reserved. Crafted by Clickkapps
                 </div>
             </div>
         </div>

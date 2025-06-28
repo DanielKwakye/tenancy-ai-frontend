@@ -25,7 +25,7 @@ function TenantCard() {
                 <Progress value={33} progressColor={"bg-[#f97315]"}/>
             </div>
             <div className={"inline-flex items-center gap-2"}>
-                <div className={"w-8 h-8 rounded-full overflow-clip  border-2 border-primary"}>
+                <div className={"w-6 h-6 rounded-full overflow-clip"}>
                     <img src={manProfilePicImg} alt="" className={"w-full h-full object-cover"}/>
                 </div>
             </div>
