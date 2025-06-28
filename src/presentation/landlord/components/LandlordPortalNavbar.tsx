@@ -49,7 +49,7 @@ function DesktopNavbar() {
                                 landlordPortalMenuLinks.map((link) => {
                                     const Icon = link.icon
                                     return (
-                                        <NavigationMenuItem>
+                                        <NavigationMenuItem key={link.title}>
                                             <NavigationMenuLink asChild>
                                                 <Link to={link.href} className="inline-flex flex-row gap-1 items-center">
                                                     { Icon && <Icon/> }
@@ -86,10 +86,10 @@ function DesktopNavbar() {
 function MobileNavbar() {
     return (
         <nav className={"md:hidden bg-background fixed z-10 w-full"}>
-            <div className={"flex flex-row justify-between items-center mx-auto pl-2 pr-4 py-4"}>
+            <div className={"flex flex-row justify-between items-center mx-auto pl-4 pr-4 py-4"}>
                 <div className={"flex flex-row items-center gap-2"}>
                     <Drawer direction={"left"}>
-                        <DrawerTrigger><Button variant={"ghost"}><MenuIcon/></Button></DrawerTrigger>
+                        <DrawerTrigger><MenuIcon size={16}/></DrawerTrigger>
                         <DrawerContent>
                             <DrawerHeader>
                                 <DrawerTitle className={"text-left inline-flex items-center gap-2"}>
@@ -110,7 +110,7 @@ function MobileNavbar() {
                                     landlordPortalMenuLinks.map((link) => {
                                         const Icon = link.icon
                                         return (
-                                            <Link to={link.href} className={"py-4 inline-flex items-center gap-2 px-4"}>
+                                            <Link key={link.title} to={link.href} className={"py-4 inline-flex items-center gap-2 px-4"}>
                                                 {Icon && <Icon size={16}/>}
                                                 <span className={"text-sm"}>{link.title}</span>
                                             </Link>

@@ -2,6 +2,7 @@ import LandlordPortalNavbar from "@/presentation/landlord/components/LandlordPor
 import LandlordPortalFooter from "@/presentation/landlord/components/LandlordPortalFooter.tsx";
 import LandlordOverviewSection from "@/presentation/landlord/components/LandlordOverviewSection.tsx";
 import TenantsSection from "@/presentation/landlord/components/TenantsSection.tsx";
+import ExpensesSection from "@/presentation/landlord/components/ExpensesSection.tsx";
 
 
 function LandlordPortalPage() {
@@ -10,7 +11,7 @@ function LandlordPortalPage() {
             <LandlordPortalNavbar />
 
             {/* Body */}
-            <div className={"md:max-w-6xl mx-auto py-6 space-y-6"}>
+            <div className={"md:max-w-6xl md:mx-auto mx-5 py-6 space-y-6 "}>
 
                 <div className={"space-y-1"}>
                     <h1 className="text-xl font-bold">Hi Landlord</h1>
@@ -21,6 +22,8 @@ function LandlordPortalPage() {
                 {/* Tenants section here*/}
                 <TenantsSection/>
                 {/*  End of tenants section   */}
+
+                <ExpensesSection/>
 
             </div>
 

@@ -14,7 +14,7 @@ function LandlordInfoCard() {
                     </div>
                     <div className={"flex flex-col"}>
                         <h1 className={"font-bold text-md"}>Ms. Greeva Navadiya</h1>
-                        <p className={"text-muted-foreground text-md"}>Web & Graphic Designer</p>
+                        <p className={"text-muted-foreground text-md"}>Account info</p>
                     </div>
                 </div>
                 <Button variant={"ghost"}><MoreHorizontalIcon size={28}/></Button>

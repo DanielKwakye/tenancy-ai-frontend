@@ -1,5 +1,7 @@
 import LandlordInfoCard from "@/presentation/landlord/components/LandlordInfoCard.tsx";
 import RentedUnits from "@/presentation/landlord/components/RentedUnits.tsx";
+import VacantUnits from "@/presentation/landlord/components/VacantUnits.tsx";
+import RevenueSummaryCard from "@/presentation/landlord/components/RevenueSummaryCard.tsx";
 
 function LandlordOverviewSection() {
     return (
@@ -7,12 +9,12 @@ function LandlordOverviewSection() {
 
             {/*  Landlord Info Card   */}
             <div className={"md:flex-3"}>
-                <LandlordInfoCard />
+                <RevenueSummaryCard />
             </div>
 
             <div className={"md:flex-2 flex flex-col gap-6"}>
                 <RentedUnits />
-                <RentedUnits />
+                <VacantUnits />
             </div>
 
             <div className={"md:flex-3"}>
