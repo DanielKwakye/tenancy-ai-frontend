@@ -23,10 +23,11 @@ import {
 
 function LandlordPortalNavbar() {
     return (
-        <>
+        <div>
             <DesktopNavbar />
             <MobileNavbar />
-        </>
+            <div className={"h-16 md:h-20"}></div>
+        </div>
     )
 }
 
