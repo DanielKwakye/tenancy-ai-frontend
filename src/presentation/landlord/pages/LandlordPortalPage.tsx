@@ -7,7 +7,8 @@ import ExpensesSection from "@/presentation/landlord/components/ExpensesSection.
 
 function LandlordPortalPage() {
     return (
-        <div className={"bg-[#f1f5f9]"}>
+        // bg-[#f1f5f9]
+        <div className={"bg-primary/10"}>
             <LandlordPortalNavbar />
 
             {/* Body */}
